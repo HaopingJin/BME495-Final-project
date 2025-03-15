@@ -1,0 +1,11 @@
+# YOLO 数据集配置文件
+path: /mnt/c/Users/jinha/Desktop/Pneumonia/
+train: maskdata/train/images  # 训练集图片路径
+val: maskdata/val/images      # 验证集图片路径
+test: maskdata/test/images    # 测试集图片路径
+
+nc: 3                    # 类别数量
+names:
+  0: normal               # 类别 0 的名称
+  1: virus            # 类别 1 的名称
+  2: bacteria             # 类别 2 的名称（如果有需要）
